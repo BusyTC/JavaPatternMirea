@@ -1,0 +1,47 @@
+plugins {
+    id 'java'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+}
+
+task copyJar(type: Copy) {
+    dependsOn build
+    from jar
+    into "$buildDir/docker"
+}
+
+task createDockerFile(type: WriteDockerfile) {
+    dependsOn copyJar
+    outputFile = file("$buildDir/docker/Dockerfile")
+    instructions = [
+        "FROM openjdk:8-jre-alpine",
+        "COPY *.jar app.jar",
+        "ENTRYPOINT [\"java\", \"-jar\", \"/app.jar\"]"
+    ]
+}
+
+task buildDockerImage(type: Exec) {
+    dependsOn createDockerFile
+    workingDir "$buildDir/docker"
+    commandLine 'docker', 'build', '-t', 'java-hello-world', '.'
+}
+
+task runDockerContainer(type: Exec) {
+    dependsOn buildDockerImage
+    commandLine 'docker', 'run', '--rm', 'java-hello-world'
+}
+
+build.dependsOn runDockerContainer
