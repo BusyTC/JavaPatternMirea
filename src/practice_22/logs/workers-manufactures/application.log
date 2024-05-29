@@ -1,0 +1,912 @@
+19:58:03.243 1027 [main] INFO  ru.mirea.Application – Starting Application using Java 17.0.11 with PID 17364 (C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_22\build\classes\java\main started by PC996 in C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_22)
+19:58:03.248 1032 [main] INFO  ru.mirea.Application – No active profile set, falling back to 1 default profile: "default"
+19:58:04.406 2190 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:58:04.648 2432 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 227 ms. Found 2 JPA repository interfaces.
+19:58:05.700 3484 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port 8082 (http)
+19:58:05.715 3499 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8082"]
+19:58:05.720 3504 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+19:58:05.720 3504 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.19]
+19:58:05.821 3605 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+19:58:05.822 3606 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2502 ms
+19:58:06.076 3860 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+19:58:06.161 3945 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+19:58:06.216 4000 [main] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+19:58:06.605 4389 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+19:58:06.653 4437 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+19:58:06.916 4700 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67dc6b48
+19:58:06.920 4704 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+19:58:06.975 4759 [main] WARN  org.hibernate.dialect.Dialect – HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+19:58:06.979 4763 [main] WARN  org.hibernate.orm.deprecation – HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19:58:08.088 5872 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19:58:08.160 5944 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:58:08.744 6528 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:58:08.778 6562 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+19:58:09.271 7055 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8082"]
+19:58:09.305 7089 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port 8082 (http) with context path ''
+19:58:09.317 7101 [main] INFO  ru.mirea.Application – Started Application in 6.585 seconds (process running for 7.366)
+19:58:43.072 1054 [main] INFO  ru.mirea.Application – Starting Application using Java 17.0.11 with PID 18012 (C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_22\build\classes\java\main started by PC996 in C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_22)
+19:58:43.077 1059 [main] INFO  ru.mirea.Application – No active profile set, falling back to 1 default profile: "default"
+19:58:44.272 2254 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19:58:44.489 2471 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 201 ms. Found 2 JPA repository interfaces.
+19:58:45.567 3549 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port 8082 (http)
+19:58:45.579 3561 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8082"]
+19:58:45.582 3564 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+19:58:45.582 3564 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.19]
+19:58:45.682 3664 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+19:58:45.682 3664 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2513 ms
+19:58:45.951 3933 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+19:58:46.033 4015 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+19:58:46.109 4091 [main] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+19:58:46.575 4557 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+19:58:46.622 4604 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+19:58:46.920 4902 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d90644f
+19:58:46.923 4905 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+19:58:47.002 4984 [main] WARN  org.hibernate.dialect.Dialect – HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+19:58:47.008 4990 [main] WARN  org.hibernate.orm.deprecation – HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19:58:48.157 6139 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19:58:48.236 6218 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+19:58:48.875 6857 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19:58:48.913 6895 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+19:58:49.456 7438 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8082"]
+19:58:49.484 7466 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port 8082 (http) with context path ''
+19:58:49.500 7482 [main] INFO  ru.mirea.Application – Started Application in 6.937 seconds (process running for 7.737)
+19:58:49.510 7492 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 19:58:49
+19:58:49.510 7492 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 19:58:49
+19:58:49.511 7493 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+19:58:49.781 7763 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler – Unexpected error occurred in scheduled task
+java.util.IllegalFormatConversionException: f != java.lang.String
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4442)
+	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:2976)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2924)
+	at java.base/java.util.Formatter.format(Formatter.java:2689)
+	at java.base/java.util.Formatter.format(Formatter.java:2625)
+	at java.base/java.lang.String.format(String.java:4145)
+	at ru.mirea.service.BackupService.makeWorkersBackup(BackupService.java:46)
+	at ru.mirea.service.BackupService.makeBackup(BackupService.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
+	at ru.mirea.service.BackupService$$SpringCGLIB$$0.makeBackup(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+19:58:59.503 17485 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 19:58:59
+19:58:59.503 17485 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 19:58:59
+19:58:59.503 17485 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+19:58:59.509 17491 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler – Unexpected error occurred in scheduled task
+java.util.IllegalFormatConversionException: f != java.lang.String
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4442)
+	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:2976)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2924)
+	at java.base/java.util.Formatter.format(Formatter.java:2689)
+	at java.base/java.util.Formatter.format(Formatter.java:2625)
+	at java.base/java.lang.String.format(String.java:4145)
+	at ru.mirea.service.BackupService.makeWorkersBackup(BackupService.java:46)
+	at ru.mirea.service.BackupService.makeBackup(BackupService.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
+	at ru.mirea.service.BackupService$$SpringCGLIB$$0.makeBackup(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+19:59:09.501 27483 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 19:59:09
+19:59:09.502 27484 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 19:59:09
+19:59:09.502 27484 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+19:59:09.509 27491 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler – Unexpected error occurred in scheduled task
+java.util.IllegalFormatConversionException: f != java.lang.String
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4442)
+	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:2976)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2924)
+	at java.base/java.util.Formatter.format(Formatter.java:2689)
+	at java.base/java.util.Formatter.format(Formatter.java:2625)
+	at java.base/java.lang.String.format(String.java:4145)
+	at ru.mirea.service.BackupService.makeWorkersBackup(BackupService.java:46)
+	at ru.mirea.service.BackupService.makeBackup(BackupService.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
+	at ru.mirea.service.BackupService$$SpringCGLIB$$0.makeBackup(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+19:59:19.498 37480 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 19:59:19
+19:59:19.498 37480 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 19:59:19
+19:59:19.498 37480 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+19:59:19.507 37489 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler – Unexpected error occurred in scheduled task
+java.util.IllegalFormatConversionException: f != java.lang.String
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4442)
+	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:2976)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2924)
+	at java.base/java.util.Formatter.format(Formatter.java:2689)
+	at java.base/java.util.Formatter.format(Formatter.java:2625)
+	at java.base/java.lang.String.format(String.java:4145)
+	at ru.mirea.service.BackupService.makeWorkersBackup(BackupService.java:46)
+	at ru.mirea.service.BackupService.makeBackup(BackupService.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
+	at ru.mirea.service.BackupService$$SpringCGLIB$$0.makeBackup(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+19:59:29.502 47484 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 19:59:29
+19:59:29.504 47486 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 19:59:29
+19:59:29.504 47486 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+19:59:29.510 47492 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler – Unexpected error occurred in scheduled task
+java.util.IllegalFormatConversionException: f != java.lang.String
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4442)
+	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:2976)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2924)
+	at java.base/java.util.Formatter.format(Formatter.java:2689)
+	at java.base/java.util.Formatter.format(Formatter.java:2625)
+	at java.base/java.lang.String.format(String.java:4145)
+	at ru.mirea.service.BackupService.makeWorkersBackup(BackupService.java:46)
+	at ru.mirea.service.BackupService.makeBackup(BackupService.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
+	at ru.mirea.service.BackupService$$SpringCGLIB$$0.makeBackup(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+19:59:39.499 57481 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 19:59:39
+19:59:39.500 57482 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 19:59:39
+19:59:39.501 57483 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+19:59:39.507 57489 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler – Unexpected error occurred in scheduled task
+java.util.IllegalFormatConversionException: f != java.lang.String
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4442)
+	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:2976)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2924)
+	at java.base/java.util.Formatter.format(Formatter.java:2689)
+	at java.base/java.util.Formatter.format(Formatter.java:2625)
+	at java.base/java.lang.String.format(String.java:4145)
+	at ru.mirea.service.BackupService.makeWorkersBackup(BackupService.java:46)
+	at ru.mirea.service.BackupService.makeBackup(BackupService.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
+	at ru.mirea.service.BackupService$$SpringCGLIB$$0.makeBackup(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+19:59:49.500 67482 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 19:59:49
+19:59:49.500 67482 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 19:59:49
+19:59:49.500 67482 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+19:59:49.510 67492 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler – Unexpected error occurred in scheduled task
+java.util.IllegalFormatConversionException: f != java.lang.String
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4442)
+	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:2976)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2924)
+	at java.base/java.util.Formatter.format(Formatter.java:2689)
+	at java.base/java.util.Formatter.format(Formatter.java:2625)
+	at java.base/java.lang.String.format(String.java:4145)
+	at ru.mirea.service.BackupService.makeWorkersBackup(BackupService.java:46)
+	at ru.mirea.service.BackupService.makeBackup(BackupService.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
+	at ru.mirea.service.BackupService$$SpringCGLIB$$0.makeBackup(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+19:59:59.506 77488 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 19:59:59
+19:59:59.507 77489 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 19:59:59
+19:59:59.509 77491 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+19:59:59.516 77498 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler – Unexpected error occurred in scheduled task
+java.util.IllegalFormatConversionException: f != java.lang.String
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4442)
+	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:2976)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2924)
+	at java.base/java.util.Formatter.format(Formatter.java:2689)
+	at java.base/java.util.Formatter.format(Formatter.java:2625)
+	at java.base/java.lang.String.format(String.java:4145)
+	at ru.mirea.service.BackupService.makeWorkersBackup(BackupService.java:46)
+	at ru.mirea.service.BackupService.makeBackup(BackupService.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
+	at ru.mirea.service.BackupService$$SpringCGLIB$$0.makeBackup(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+20:00:09.508 87490 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:00:09
+20:00:09.508 87490 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:00:09
+20:00:09.509 87491 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:00:09.515 87497 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler – Unexpected error occurred in scheduled task
+java.util.IllegalFormatConversionException: f != java.lang.String
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4442)
+	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:2976)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2924)
+	at java.base/java.util.Formatter.format(Formatter.java:2689)
+	at java.base/java.util.Formatter.format(Formatter.java:2625)
+	at java.base/java.lang.String.format(String.java:4145)
+	at ru.mirea.service.BackupService.makeWorkersBackup(BackupService.java:46)
+	at ru.mirea.service.BackupService.makeBackup(BackupService.java:78)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
+	at ru.mirea.service.BackupService$$SpringCGLIB$$0.makeBackup(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+20:00:19.499 97481 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:00:19
+20:00:19.501 97483 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:00:19
+20:00:19.501 97483 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:00:19.505 97487 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler – Unexpected error occurred in scheduled task
+java.util.IllegalFormatConversionException: f != java.lang.String
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4442)
+	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:2976)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2924)
+	at java.base/java.util.Formatter.format(Formatter.java:2689)
+	at java.base/java.util.Formatter.format(Formatter.java:2625)
+	at java.base/java.lang.String.format(String.java:4145)
+	at ru.mirea.service.BackupService.makeWorkersBackup(BackupService.java:46)
+	at ru.mirea.service.BackupService.makeBackup(BackupService.java:78)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:765)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:717)
+	at ru.mirea.service.BackupService$$SpringCGLIB$$0.makeBackup(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+20:00:55.005 1039 [main] INFO  ru.mirea.Application – Starting Application using Java 17.0.11 with PID 17500 (C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_22\build\classes\java\main started by PC996 in C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_22)
+20:00:55.009 1043 [main] INFO  ru.mirea.Application – No active profile set, falling back to 1 default profile: "default"
+20:00:56.210 2244 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:00:56.435 2469 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 210 ms. Found 2 JPA repository interfaces.
+20:00:57.560 3594 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port 8082 (http)
+20:00:57.580 3614 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8082"]
+20:00:57.585 3619 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+20:00:57.585 3619 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.19]
+20:00:57.681 3715 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+20:00:57.682 3716 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2588 ms
+20:00:58.002 4036 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+20:00:58.090 4124 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+20:00:58.169 4203 [main] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+20:00:58.569 4603 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+20:00:58.608 4642 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+20:00:58.900 4934 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e7b0bec
+20:00:58.902 4936 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+20:00:58.958 4992 [main] WARN  org.hibernate.dialect.Dialect – HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+20:00:58.966 5000 [main] WARN  org.hibernate.orm.deprecation – HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+20:01:00.076 6110 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+20:01:00.161 6195 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+20:01:00.886 6920 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20:01:00.920 6954 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+20:01:01.498 7532 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8082"]
+20:01:01.527 7561 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port 8082 (http) with context path ''
+20:01:01.544 7578 [main] INFO  ru.mirea.Application – Started Application in 7.051 seconds (process running for 7.843)
+20:01:01.567 7601 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:01:01
+20:01:01.568 7602 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:01:01
+20:01:01.568 7602 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:01:01.842 7876 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:01:01
+20:01:11.550 17584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:01:11
+20:01:11.550 17584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:01:11
+20:01:11.550 17584 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:01:11.563 17597 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:01:11
+20:01:21.547 27581 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:01:21
+20:01:21.547 27581 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:01:21
+20:01:21.547 27581 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:01:21.555 27589 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:01:21
+20:01:31.548 37582 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:01:31
+20:01:31.550 37584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:01:31
+20:01:31.550 37584 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:01:31.558 37592 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:01:31
+20:01:41.555 47589 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:01:41
+20:01:41.556 47590 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:01:41
+20:01:41.556 47590 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:01:41.566 47600 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:01:41
+20:01:51.542 57576 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:01:51
+20:01:51.543 57577 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:01:51
+20:01:51.544 57578 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:01:51.554 57588 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:01:51
+20:02:01.546 67580 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:02:01
+20:02:01.547 67581 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:02:01
+20:02:01.547 67581 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:02:01.556 67590 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:02:01
+20:02:11.548 77582 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:02:11
+20:02:11.549 77583 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:02:11
+20:02:11.550 77584 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:02:11.559 77593 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:02:11
+20:02:21.545 87579 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:02:21
+20:02:21.545 87579 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:02:21
+20:02:21.545 87579 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:02:21.555 87589 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:02:21
+20:02:31.546 97580 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:02:31
+20:02:31.548 97582 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:02:31
+20:02:31.548 97582 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:02:31.557 97591 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:02:31
+20:02:41.546 107580 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:02:41
+20:02:41.547 107581 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:02:41
+20:02:41.547 107581 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:02:41.555 107589 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:02:41
+20:02:51.548 117582 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:02:51
+20:02:51.549 117583 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:02:51
+20:02:51.549 117583 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:02:51.559 117593 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:02:51
+20:03:01.556 127590 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:03:01
+20:03:01.556 127590 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:03:01
+20:03:01.556 127590 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:03:01.566 127600 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:03:01
+20:03:11.548 137582 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:03:11
+20:03:11.549 137583 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:03:11
+20:03:11.549 137583 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:03:11.558 137592 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:03:11
+20:03:21.549 147583 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:03:21
+20:03:21.550 147584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:03:21
+20:03:21.551 147585 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:03:21.561 147595 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:03:21
+20:03:31.546 157580 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:03:31
+20:03:31.548 157582 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:03:31
+20:03:31.548 157582 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:03:31.559 157593 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:03:31
+20:03:41.551 167585 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:03:41
+20:03:41.552 167586 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:03:41
+20:03:41.552 167586 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:03:41.560 167594 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:03:41
+20:03:51.553 177587 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:03:51
+20:03:51.554 177588 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:03:51
+20:03:51.554 177588 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:03:51.563 177597 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:03:51
+20:04:01.545 187579 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:04:01
+20:04:01.545 187579 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:04:01
+20:04:01.545 187579 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:04:01.554 187588 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:04:01
+20:04:11.550 197584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:04:11
+20:04:11.550 197584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:04:11
+20:04:11.550 197584 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:04:11.560 197594 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:04:11
+20:04:21.553 207587 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:04:21
+20:04:21.554 207588 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:04:21
+20:04:21.554 207588 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:04:21.565 207599 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:04:21
+20:04:31.544 217578 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:04:31
+20:04:31.545 217579 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:04:31
+20:04:31.545 217579 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:04:31.553 217587 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:04:31
+20:04:41.543 227577 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:04:41
+20:04:41.543 227577 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:04:41
+20:04:41.543 227577 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:04:41.549 227583 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:04:41
+20:04:51.556 237590 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:04:51
+20:04:51.556 237590 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:04:51
+20:04:51.556 237590 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:04:51.565 237599 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:04:51
+20:05:01.548 247582 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:05:01
+20:05:01.549 247583 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:05:01
+20:05:01.549 247583 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:05:01.563 247597 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:05:01
+20:05:11.557 257591 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:05:11
+20:05:11.557 257591 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:05:11
+20:05:11.558 257592 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:05:11.563 257597 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:05:11
+20:05:21.550 267584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:05:21
+20:05:21.552 267586 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:05:21
+20:05:21.552 267586 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:05:21.561 267595 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:05:21
+20:05:31.550 277584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:05:31
+20:05:31.550 277584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:05:31
+20:05:31.550 277584 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:05:31.558 277592 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:05:31
+20:05:41.547 287581 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:05:41
+20:05:41.548 287582 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:05:41
+20:05:41.548 287582 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:05:41.558 287592 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:05:41
+20:05:51.550 297584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:05:51
+20:05:51.550 297584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:05:51
+20:05:51.550 297584 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:05:51.559 297593 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:05:51
+20:06:01.553 307587 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:06:01
+20:06:01.553 307587 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:06:01
+20:06:01.553 307587 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:06:01.562 307596 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:06:01
+20:06:11.555 317589 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:06:11
+20:06:11.556 317590 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:06:11
+20:06:11.556 317590 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:06:11.565 317599 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:06:11
+20:06:21.550 327584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:06:21
+20:06:21.550 327584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:06:21
+20:06:21.552 327586 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:06:21.560 327594 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:06:21
+20:06:31.545 337579 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:06:31
+20:06:31.546 337580 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:06:31
+20:06:31.546 337580 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:06:31.555 337589 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:06:31
+20:06:41.550 347584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:06:41
+20:06:41.550 347584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:06:41
+20:06:41.550 347584 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:06:41.559 347593 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:06:41
+20:06:41.898 347932 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:06:41.898 347932 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+20:06:41.899 347933 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+20:06:41.973 348007 [http-nio-8082-exec-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:06:41
+20:06:42.432 348466 [http-nio-8082-exec-2] INFO  ru.mirea.JavaAspect – 2024-05-29 20:06:42
+20:06:42.432 348466 [http-nio-8082-exec-2] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:06:51.553 357587 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:06:51
+20:06:51.554 357588 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:06:51
+20:06:51.554 357588 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:06:51.563 357597 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:06:51
+20:07:33.233 1103 [main] INFO  ru.mirea.Application – Starting Application using Java 17.0.11 with PID 17896 (C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_22\build\classes\java\main started by PC996 in C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_22)
+20:07:33.239 1109 [main] INFO  ru.mirea.Application – No active profile set, falling back to 1 default profile: "default"
+20:07:34.427 2297 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:07:34.658 2528 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 204 ms. Found 2 JPA repository interfaces.
+20:07:35.780 3650 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port 8082 (http)
+20:07:35.798 3668 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8082"]
+20:07:35.802 3672 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+20:07:35.803 3673 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.19]
+20:07:35.904 3774 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+20:07:35.905 3775 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2583 ms
+20:07:36.221 4091 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+20:07:36.330 4200 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+20:07:36.403 4273 [main] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+20:07:36.764 4634 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+20:07:36.800 4670 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+20:07:37.051 4921 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@333a44f2
+20:07:37.055 4925 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+20:07:37.103 4973 [main] WARN  org.hibernate.dialect.Dialect – HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+20:07:37.108 4978 [main] WARN  org.hibernate.orm.deprecation – HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+20:07:38.202 6072 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+20:07:38.278 6148 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+20:07:39.003 6873 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20:07:39.040 6910 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+20:07:39.651 7521 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8082"]
+20:07:39.689 7559 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port 8082 (http) with context path ''
+20:07:39.706 7576 [main] INFO  ru.mirea.Application – Started Application in 6.983 seconds (process running for 7.843)
+20:07:39.717 7587 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:07:39
+20:07:39.717 7587 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:07:39
+20:07:39.719 7589 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:07:40.008 7878 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:07:40
+20:07:49.437 17307 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:07:49.437 17307 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+20:07:49.439 17309 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 2 ms
+20:07:49.499 17369 [http-nio-8082-exec-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:07:49
+20:07:49.704 17574 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:07:49
+20:07:49.704 17574 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:07:49
+20:07:49.704 17574 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:07:49.726 17596 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:07:49
+20:07:49.936 17806 [http-nio-8082-exec-1] INFO  ru.mirea.service.WorkerServiceImpl – Delete worker 2
+20:07:49.966 17836 [http-nio-8082-exec-2] INFO  ru.mirea.JavaAspect – 2024-05-29 20:07:49
+20:07:49.966 17836 [http-nio-8082-exec-2] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:07:59.710 27580 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:07:59
+20:07:59.711 27581 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:07:59
+20:07:59.711 27581 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:07:59.720 27590 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:07:59
+20:08:07.676 35546 [task-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:07
+20:08:07.676 35546 [http-nio-8082-exec-4] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:07
+20:08:07.676 35546 [http-nio-8082-exec-4] INFO  ru.mirea.service.WorkerServiceImpl – Creating new worker: ru.mirea.model.Worker@6f9a0b35
+20:08:07.739 35609 [http-nio-8082-exec-5] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:07
+20:08:07.741 35611 [http-nio-8082-exec-5] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:08:09.717 37587 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:09
+20:08:09.718 37588 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:09
+20:08:09.718 37588 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:08:09.727 37597 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:08:09
+20:08:19.716 47586 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:19
+20:08:19.716 47586 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:19
+20:08:19.716 47586 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:08:19.735 47605 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:08:19
+20:08:29.708 57578 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:29
+20:08:29.709 57579 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:29
+20:08:29.709 57579 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:08:29.718 57588 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:08:29
+20:08:39.708 67578 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:39
+20:08:39.709 67579 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:39
+20:08:39.709 67579 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:08:39.720 67590 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:08:39
+20:08:43.811 71681 [http-nio-8082-exec-6] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:43
+20:08:43.811 71681 [task-2] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:43
+20:08:43.811 71681 [http-nio-8082-exec-6] INFO  ru.mirea.service.WorkerServiceImpl – Creating new worker: ru.mirea.model.Worker@13f3531a
+20:08:43.853 71723 [http-nio-8082-exec-10] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:43
+20:08:43.853 71723 [http-nio-8082-exec-10] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:08:49.715 77585 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:49
+20:08:49.717 77587 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:49
+20:08:49.717 77587 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:08:49.727 77597 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:08:49
+20:08:59.712 87582 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:59
+20:08:59.713 87583 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:08:59
+20:08:59.714 87584 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:08:59.729 87599 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:08:59
+20:09:09.710 97580 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:09:09
+20:09:09.710 97580 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:09:09
+20:09:09.710 97580 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:09:09.722 97592 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:09:09
+20:09:19.716 107586 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:09:19
+20:09:19.717 107587 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:09:19
+20:09:19.718 107588 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:09:19.731 107601 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:09:19
+20:09:29.711 117581 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:09:29
+20:09:29.711 117581 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:09:29
+20:09:29.711 117581 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:09:29.722 117592 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:09:29
+20:09:39.714 127584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:09:39
+20:09:39.714 127584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:09:39
+20:09:39.715 127585 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:09:39.726 127596 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:09:39
+20:09:49.716 137586 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:09:49
+20:09:49.716 137586 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:09:49
+20:09:49.717 137587 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:09:49.727 137597 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:09:49
+20:09:59.714 147584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:09:59
+20:09:59.714 147584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:09:59
+20:09:59.715 147585 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:09:59.726 147596 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:09:59
+20:10:09.717 157587 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:10:09
+20:10:09.718 157588 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:10:09
+20:10:09.718 157588 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:10:09.729 157599 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:10:09
+20:10:19.715 167585 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:10:19
+20:10:19.716 167586 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:10:19
+20:10:19.716 167586 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:10:19.727 167597 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:10:19
+20:10:29.710 177580 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:10:29
+20:10:29.711 177581 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:10:29
+20:10:29.712 177582 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:10:29.722 177592 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:10:29
+20:10:39.706 187576 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:10:39
+20:10:39.706 187576 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:10:39
+20:10:39.706 187576 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:10:39.716 187586 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:10:39
+20:10:49.716 197586 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:10:49
+20:10:49.717 197587 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:10:49
+20:10:49.718 197588 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:10:49.727 197597 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:10:49
+20:10:59.719 207589 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:10:59
+20:10:59.719 207589 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:10:59
+20:10:59.720 207590 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:10:59.730 207600 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:10:59
+20:11:09.714 217584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:11:09
+20:11:09.715 217585 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:11:09
+20:11:09.715 217585 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:11:09.726 217596 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:11:09
+20:11:19.713 227583 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:11:19
+20:11:19.714 227584 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:11:19
+20:11:19.714 227584 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:11:19.725 227595 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:11:19
+20:11:29.706 237576 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:11:29
+20:11:29.707 237577 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:11:29
+20:11:29.707 237577 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:11:29.718 237588 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:11:29
+20:11:58.304 1041 [main] INFO  ru.mirea.Application – Starting Application using Java 17.0.11 with PID 7036 (C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_22\build\classes\java\main started by PC996 in C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_22)
+20:11:58.310 1047 [main] INFO  ru.mirea.Application – No active profile set, falling back to 1 default profile: "default"
+20:11:59.506 2243 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:11:59.750 2487 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 218 ms. Found 2 JPA repository interfaces.
+20:12:00.912 3649 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port 8082 (http)
+20:12:00.930 3667 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8082"]
+20:12:00.933 3670 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+20:12:00.933 3670 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.19]
+20:12:01.043 3780 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+20:12:01.043 3780 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2656 ms
+20:12:01.318 4055 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+20:12:01.394 4131 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+20:12:01.480 4217 [main] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+20:12:01.858 4595 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+20:12:01.906 4643 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+20:12:02.132 4869 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30228de7
+20:12:02.135 4872 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+20:12:02.201 4938 [main] WARN  org.hibernate.dialect.Dialect – HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+20:12:02.206 4943 [main] WARN  org.hibernate.orm.deprecation – HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+20:12:03.282 6019 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+20:12:03.359 6096 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+20:12:04.027 6764 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20:12:04.063 6800 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+20:12:04.610 7347 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8082"]
+20:12:04.638 7375 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port 8082 (http) with context path ''
+20:12:04.653 7390 [main] INFO  ru.mirea.Application – Started Application in 6.861 seconds (process running for 7.627)
+20:12:04.667 7404 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:12:04
+20:12:04.668 7405 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:12:04
+20:12:04.668 7405 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:12:05.029 7766 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:12:05
+20:12:14.658 17395 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:12:14
+20:12:14.658 17395 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:12:14
+20:12:14.659 17396 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:12:14.667 17404 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:12:14
+20:12:24.653 27390 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:12:24
+20:12:24.655 27392 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:12:24
+20:12:24.655 27392 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:12:24.665 27402 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:12:24
+20:12:26.914 29651 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:12:26.914 29651 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+20:12:26.916 29653 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 2 ms
+20:12:26.986 29723 [http-nio-8082-exec-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:12:26
+20:12:26.986 29723 [http-nio-8082-exec-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:12:34.657 37394 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:12:34
+20:12:34.658 37395 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:12:34
+20:12:34.658 37395 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:12:34.667 37404 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:12:34
+20:12:44.665 47402 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:12:44
+20:12:44.666 47403 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:12:44
+20:12:44.667 47404 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:12:44.675 47412 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:12:44
+20:12:54.660 57397 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:12:54
+20:12:54.661 57398 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:12:54
+20:12:54.661 57398 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:12:54.668 57405 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:12:54
+20:13:01.674 1002 [main] INFO  ru.mirea.Application – Starting Application using Java 17.0.11 with PID 15764 (C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_22\build\classes\java\main started by PC996 in C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_22)
+20:13:01.677 1005 [main] INFO  ru.mirea.Application – No active profile set, falling back to 1 default profile: "default"
+20:13:02.856 2184 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:13:03.090 2418 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 219 ms. Found 2 JPA repository interfaces.
+20:13:04.211 3539 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port 8082 (http)
+20:13:04.228 3556 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8082"]
+20:13:04.234 3562 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+20:13:04.234 3562 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.19]
+20:13:04.335 3663 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+20:13:04.335 3663 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2581 ms
+20:13:04.623 3951 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+20:13:04.702 4030 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+20:13:04.794 4122 [main] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+20:13:05.202 4530 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+20:13:05.248 4576 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+20:13:05.504 4832 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72001c71
+20:13:05.508 4836 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+20:13:05.559 4887 [main] WARN  org.hibernate.dialect.Dialect – HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+20:13:05.567 4895 [main] WARN  org.hibernate.orm.deprecation – HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+20:13:06.644 5972 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+20:13:06.720 6048 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+20:13:07.410 6738 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20:13:07.450 6778 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+20:13:08.013 7341 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8082"]
+20:13:08.037 7365 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port 8082 (http) with context path ''
+20:13:08.054 7382 [main] INFO  ru.mirea.Application – Started Application in 6.876 seconds (process running for 7.62)
+20:13:08.064 7392 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:13:08
+20:13:08.065 7393 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:13:08
+20:13:08.065 7393 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:13:08.350 7678 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:13:08
+20:13:18.053 17381 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:13:18
+20:13:18.054 17382 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:13:18
+20:13:18.054 17382 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:13:18.061 17389 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:13:18
+20:13:28.067 27395 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:13:28
+20:13:28.068 27396 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:13:28
+20:13:28.068 27396 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:13:28.075 27403 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:13:28
+20:13:38.059 37387 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:13:38
+20:13:38.060 37388 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:13:38
+20:13:38.061 37389 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:13:38.067 37395 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:13:38
+20:13:48.055 47383 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:13:48
+20:13:48.056 47384 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:13:48
+20:13:48.056 47384 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:13:48.065 47393 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:13:48
+20:13:58.063 57391 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:13:58
+20:13:58.065 57393 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:13:58
+20:13:58.065 57393 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:13:58.071 57399 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:13:58
+20:14:08.055 67383 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:14:08
+20:14:08.057 67385 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 20:14:08
+20:14:08.057 67385 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+20:14:08.062 67390 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 20:14:08

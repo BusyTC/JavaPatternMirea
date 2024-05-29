@@ -1,0 +1,71 @@
+21:10:38.866 962  [main] INFO  ru.mirea.Application – Starting Application using Java 17.0.11 with PID 7104 (C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_23\build\classes\java\main started by PC996 in C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_23)
+21:10:38.871 967  [main] INFO  ru.mirea.Application – No active profile set, falling back to 1 default profile: "default"
+21:10:39.958 2054 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21:10:40.176 2272 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 206 ms. Found 3 JPA repository interfaces.
+21:10:41.215 3311 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port 8082 (http)
+21:10:41.230 3326 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8082"]
+21:10:41.237 3333 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+21:10:41.237 3333 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.19]
+21:10:41.336 3432 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+21:10:41.338 3434 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2392 ms
+21:10:41.639 3735 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+21:10:41.727 3823 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+21:10:41.786 3882 [main] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+21:10:42.184 4280 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+21:10:42.216 4312 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+21:10:42.480 4576 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31b6fb14
+21:10:42.482 4578 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+21:10:42.520 4616 [main] WARN  org.hibernate.dialect.Dialect – HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+21:10:42.525 4621 [main] WARN  org.hibernate.orm.deprecation – HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+21:10:43.635 5731 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+21:10:43.930 6026 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+21:10:44.608 6704 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21:10:44.762 6858 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+21:10:45.031 7127 [main] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@23d0f6be, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48cebb78, org.springframework.security.web.context.SecurityContextHolderFilter@4f466207, org.springframework.security.web.header.HeaderWriterFilter@23cfc9eb, org.springframework.web.filter.CorsFilter@45c10678, org.springframework.security.web.authentication.logout.LogoutFilter@65067d37, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@37f75ebf, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@713c8cbb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4ad57db1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7aa62a90, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23ee31b8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e140753, org.springframework.security.web.access.ExceptionTranslationFilter@4a5eb613, org.springframework.security.web.access.intercept.AuthorizationFilter@4615bc00]
+21:10:45.489 7585 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8082"]
+21:10:45.517 7613 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port 8082 (http) with context path ''
+21:10:45.534 7630 [main] INFO  ru.mirea.Application – Started Application in 7.128 seconds (process running for 7.985)
+21:10:45.549 7645 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 21:10:45
+21:10:45.550 7646 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 21:10:45
+21:10:45.550 7646 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+21:10:45.833 7929 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 21:10:45
+21:11:03.045 25141 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:11:03.045 25141 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+21:11:03.046 25142 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+21:21:45.318 667414 [http-nio-8082-exec-2] WARN  o.s.s.c.b.BCryptPasswordEncoder – Encoded password does not look like BCrypt
+21:22:07.131 689227 [http-nio-8082-exec-5] WARN  o.s.s.c.b.BCryptPasswordEncoder – Encoded password does not look like BCrypt
+21:25:32.181 894277 [http-nio-8082-exec-2] WARN  o.s.s.c.b.BCryptPasswordEncoder – Encoded password does not look like BCrypt
+21:31:14.181 1038 [main] INFO  ru.mirea.Application – Starting Application using Java 17.0.11 with PID 13072 (C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_23\build\classes\java\main started by PC996 in C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_23)
+21:31:14.184 1041 [main] INFO  ru.mirea.Application – No active profile set, falling back to 1 default profile: "default"
+21:31:15.339 2196 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21:31:15.547 2404 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 196 ms. Found 3 JPA repository interfaces.
+21:31:16.652 3509 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port 8082 (http)
+21:31:16.669 3526 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8082"]
+21:31:16.672 3529 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+21:31:16.673 3530 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.19]
+21:31:16.775 3632 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+21:31:16.776 3633 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2502 ms
+21:31:17.040 3897 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+21:31:17.145 4002 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+21:31:17.219 4076 [main] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+21:31:17.568 4425 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+21:31:17.607 4464 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+21:31:17.817 4674 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2fd4312a
+21:31:17.819 4676 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+21:31:17.855 4712 [main] WARN  org.hibernate.dialect.Dialect – HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+21:31:17.862 4719 [main] WARN  org.hibernate.orm.deprecation – HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+21:31:18.836 5693 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+21:31:19.126 5983 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+21:31:19.809 6666 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+21:31:19.971 6828 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+21:31:20.255 7112 [main] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@569b3009, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23d0f6be, org.springframework.security.web.context.SecurityContextHolderFilter@2bfe4df9, org.springframework.security.web.header.HeaderWriterFilter@1eaf4e77, org.springframework.web.filter.CorsFilter@48cebb78, org.springframework.security.web.authentication.logout.LogoutFilter@55b5ce0f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4615bc00, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@f4aec23, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@45c10678, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@121b7a95, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7aa62a90, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ad57db1, org.springframework.security.web.access.ExceptionTranslationFilter@7a79a5d6, org.springframework.security.web.access.intercept.AuthorizationFilter@72e5206]
+21:31:20.706 7563 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8082"]
+21:31:20.731 7588 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port 8082 (http) with context path ''
+21:31:20.746 7603 [main] INFO  ru.mirea.Application – Started Application in 7.102 seconds (process running for 7.886)
+21:31:20.756 7613 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 21:31:20
+21:31:20.756 7613 [scheduling-1] INFO  ru.mirea.JavaAspect – 2024-05-29 21:31:20
+21:31:20.756 7613 [scheduling-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+21:31:20.983 7840 [scheduling-1] INFO  ru.mirea.service.BackupService – Backups are made: 21:31:20
+21:38:56.266 463123 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:38:56.267 463124 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+21:38:56.268 463125 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Worker</title>
+</head>
+<body>
+<header>
+    <h1>Admin panel (workers)</h1>
+    <nav>
+        <a th:href="@{/}">Main</a>
+        <a th:href="@{/manufactures}">Manufactures</a>
+    </nav>
+</header>
+<section>
+    <form th:method="get" th:action="@{/workers/add_worker}">
+        <h1>Добавить работника</h1>
+        <input type="text" name="firstName" placeholder="Имя" required>
+        <input type="text" name="middleName" placeholder="Отчество" required>
+        <input type="text" name="lastName" placeholder="Фамилия" required>
+        <input type="submit" value="Добавить">
+    </form>
+</section>
+<section>
+    <form th:method="get" th:action="@{/workers/delete_worker}">
+        <h1>Удалить работника</h1>
+        <input type="number" name="id" placeholder="ИД работника" required>
+        <input type="submit" value="Удалить">
+    </form>
+</section>
+<section>
+    <h1>Список работников</h1>
+    <p>Сортировать по</p>
+    <select>
+        <option value="id">ИД</option>
+        <option value="firstName">Имени</option>
+        <option value="middleName">Отчеству</option>
+        <option value="lastName">Фамилии</option>
+    </select>
+    <table>
+        <tr>
+            <th>ИД работника</th>
+            <th>Имя работника</th>
+            <th>Отчество работника</th>
+            <th>Фамилия работника</th>
+        </tr>
+        <tr th:each="worker:${workers}">
+            <td th:text="${worker.id}"></td>
+            <td th:text="${worker.firstName}"></td>
+            <td th:text="${worker.middleName}"></td>
+            <td th:text="${worker.lastName}"></td>
+        </tr>
+    </table>
+</section>
+</body>
+</html>

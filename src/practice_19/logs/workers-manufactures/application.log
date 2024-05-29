@@ -1,0 +1,36 @@
+14:46:52.996 1092 [main] INFO  ru.mirea.Application – Starting Application using Java 17.0.11 with PID 15000 (C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_19\build\classes\java\main started by PC996 in C:\Users\PC996\Documents\MIREA\Semester_4\Java\practice_19)
+14:46:53.001 1097 [main] INFO  ru.mirea.Application – No active profile set, falling back to 1 default profile: "default"
+14:46:54.369 2465 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:46:54.626 2722 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 241 ms. Found 2 JPA repository interfaces.
+14:46:55.707 3803 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port 8082 (http)
+14:46:55.716 3812 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8082"]
+14:46:55.719 3815 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+14:46:55.720 3816 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.19]
+14:46:55.846 3942 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+14:46:55.848 3944 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2737 ms
+14:46:56.162 4258 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+14:46:56.254 4350 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+14:46:56.319 4415 [main] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+14:46:56.676 4772 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+14:46:56.719 4815 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+14:46:56.959 5055 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a84a8b2
+14:46:56.963 5059 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+14:46:57.014 5110 [main] WARN  org.hibernate.dialect.Dialect – HHH000511: The 5.7.24 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+14:46:57.022 5118 [main] WARN  org.hibernate.orm.deprecation – HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+14:46:57.982 6078 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+14:46:58.200 6296 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:46:58.710 6806 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:46:58.745 6841 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+14:46:59.231 7327 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8082"]
+14:46:59.264 7360 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port 8082 (http) with context path ''
+14:46:59.276 7372 [main] INFO  ru.mirea.Application – Started Application in 6.776 seconds (process running for 7.698)
+14:47:09.268 17364 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:47:09.269 17365 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+14:47:09.270 17366 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+14:47:09.319 17415 [http-nio-8082-exec-1] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+14:47:22.471 30567 [http-nio-8082-exec-3] INFO  ru.mirea.service.WorkerServiceImpl – Creating new worker: ru.mirea.model.Worker@7f779bc9
+14:47:22.534 30630 [http-nio-8082-exec-4] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+14:47:30.440 38536 [http-nio-8082-exec-6] INFO  ru.mirea.service.WorkerServiceImpl – Creating new worker: ru.mirea.model.Worker@70a2f838
+14:47:30.465 38561 [http-nio-8082-exec-7] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+14:47:35.268 43364 [http-nio-8082-exec-8] INFO  ru.mirea.service.WorkerServiceImpl – Delete worker 1
+14:47:35.283 43379 [http-nio-8082-exec-9] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
