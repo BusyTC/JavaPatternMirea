@@ -1,0 +1,12 @@
+12:41:54.839 411  [Test worker] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+12:41:54.856 428  [Test worker] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+12:41:54.889 461  [Test worker] INFO  ru.mirea.service.WorkerServiceImpl – Creating new worker: ru.mirea.model.Worker@3bbf6abe
+12:55:59.230 386  [Test worker] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+12:55:59.242 398  [Test worker] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+12:55:59.273 429  [Test worker] INFO  ru.mirea.service.WorkerServiceImpl – Creating new worker: ru.mirea.model.Worker@17dd671f
+12:58:40.944 379  [Test worker] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+12:58:40.956 391  [Test worker] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+12:58:40.986 421  [Test worker] INFO  ru.mirea.service.WorkerServiceImpl – Creating new worker: ru.mirea.model.Worker@17dd671f
+12:59:09.285 378  [Test worker] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+12:59:09.297 390  [Test worker] INFO  ru.mirea.service.WorkerServiceImpl – Read all workers
+12:59:09.327 420  [Test worker] INFO  ru.mirea.service.WorkerServiceImpl – Creating new worker: ru.mirea.model.Worker@17dd671f
